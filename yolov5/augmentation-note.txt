@@ -1,0 +1,14 @@
+Augmentation 图像增强
+
+这个在yolov3 v2 v1 里面都有应用，目的是增大数据集，提高图片多样性，最终提高模型鲁棒性
+
+常见增强方式：
+  			Mosaic： 把四张图拼在一起
+			Copy paste：把目标复制到别的图片里  （一定要有目标的实际分割标签）
+			random affine：平移，错切，旋转，缩放
+			mixUp：降低透明度，叠加图片
+			Albumentation：改变图片质量
+			HSV ：Hue色度 Saturation饱和度 Value明度
+			Random Horizontal flip: 随机水平翻转
+			
+			
